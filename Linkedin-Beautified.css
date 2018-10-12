@@ -1,0 +1,65 @@
+/* ==UserStyle==
+@name           LinkedIn Minimal
+@version        1.0.0
+@description    LinkedIn Minimal theme for Stylish
+@namespace      http://www.w3.org/1999/xhtml
+@homepageURL    https://github.com/sirpooya/Stylish
+@supportURL     https://github.com/sirpooya/Stylish/issues
+@author         Pooya Kamel
+@license        GPL
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.linkedin.com"), domain("linkedin.com") {
+    body {background-color: #E5EBEF;}
+    #extended-nav {background: #ffffff;border-bottom: 1px solid #00000033;}
+    
+    .neptune-grid {zoom:1;}
+    .neptune-grid .left-rail {margin-left: 120px ; }
+    .neptune-grid.three-column .core-rail {margin-top: 15px; margin-left: 50px;}
+    
+    .neptune-grid .right-rail, .neptune-grid .right-rail .right-rail-container {margin-top:20px;}
+
+    .profile-rail-card, .feed-pages-admin-module {width: 250px; margin-top: 15px;}
+    .feed-shared-navigation-module {display:none;}
+    
+    .Elevation-2dp {box-shadow: 0 0 0 1px rgba(0, 0, 0, 0) !important}
+    .sharing-share-box--is-unfocused,.container {box-shadow: 0 0 0 1px rgba(0,0,0,.0) !important;}    
+
+     
+    .feed-shared-control-menu-trigger {
+        color: rgba(179, 179, 179, 0.6);}
+
+    .feed-shared-update-v2__comments-container {display:none;}
+    .feed-shared-update-v2__description span {font-size:16px;}
+
+    .pv-content__right-rail {margin-top:100px;}
+    .artdeco-container-card,.artdeco-card,.container-with-shadow,.jobs-box {box-shadow:none;}
+
+ 
+    .left-rail .mn-connections-summary, .nt-content__rail-container--left {width: 240px; margin-top: 15px !important;}
+    
+    /*,
+    .feed-shared-social-actions.feed-shared-social-action-bar.ember-view {display:none;}
+    
+    */
+    
+    /* HEADER */
+    .nav-container .nav-item__title {display:none;}
+    .nav-container .nav-item__icon {top:6px;}
+    .nav-item__dropdown-trigger--icon {display:none;}
+    .nav-item--spotlight, .nav-item--spotlight-one {display:none;}
+    
+    .nav-item__badge {border: 2px solid #283e4a00;}
+    .nav-side {border-left: 1px solid #0000000a;}
+    .nav-main-container .nav-item__icon {color: #525556;}
+    .nav-item__link.active:not(.ember-transitioning-out) .nav-item__icon {color:#0073B0;}
+    .nav-item__link--underline::after {border-bottom-color: #0073B0;}
+    .nav-item__link:hover .nav-item__badge, .nav-item__link:hover .nav-item__icon {color:royalblue;}
+    .nav-item__link:hover .nav-item__badge-count {color:white;}
+    
+    footer .nav-footer__container {background-color:#E4EAEE !important;}
+    }
+
+    @-moz-document url-prefix("https://www.linkedin.com/feed") {
+        .pv-deferred-area__content, .feed-right-rail, .right-rail  {display:none;}
+    }    
