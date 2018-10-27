@@ -62,4 +62,8 @@
 
     @-moz-document url-prefix("https://www.linkedin.com/feed") {
         .pv-deferred-area__content, .feed-right-rail, .right-rail  {display:none;}
-    }    
+    }
+    
+    
+    .ad-banner-container {display:none;}
+    .pv-profile-wrapper--below-nav .profile-view-grid .core-rail {margin-top: 20px;}
