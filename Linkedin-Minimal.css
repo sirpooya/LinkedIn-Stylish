@@ -64,6 +64,7 @@
         .pv-deferred-area__content, .feed-right-rail, .right-rail  {display:none;}
     }
     
+    .sticky>:first-child {margin-top:15px;}
     
     .ad-banner-container {display:none;}
     .pv-profile-wrapper--below-nav .profile-view-grid .core-rail {margin-top: 20px;}
